@@ -18,7 +18,7 @@ const App = () => {
     <div>
            
         <div className='bg-gray-900 h-2 items-center py-10  flex justify-center'>
-        <h1 className='lg:text-lg sm:float-right sm:text-xs font-bold text-white mr-7 '>Search Images</h1>
+        <h1 className='lg:text-lg sm:float-right sm:text-sm md:text-lg font-bold text-white mr-7 '>Search Images</h1>
         <input className="bg-gray-50 border border-gray-300 text-sm indent-2 p-2.5 outline-none focus:border-blue-500 focus:ring-2 rounded-tl rounded-bl sm:float-left" type="text" placeholder="Search Anything..." onChange={(e) => setQuery(e.target.value)}/>
         <button className="bg-blue-600 px-6 py-2.5 text-white rounded-tr rounded-br focus:ring-2 focus:ring-blue-300 disabled:bg-gray-400" onClick={search}>Search</button>
         </div>
